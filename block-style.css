@@ -1,0 +1,52 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 15px;
+  line-height: 1.7;
+  font-weight: 400;
+  color: #1c1d21;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.2;
+  color: inherit;
+}
+body h1 {
+  font-size: 2.5rem;
+}
+body h2 {
+  font-size: 2rem;
+}
+body h3 {
+  font-size: 1.75rem;
+}
+body h4 {
+  font-size: 1.5rem;
+}
+body h5 {
+  font-size: 1.25rem;
+}
+body h6 {
+  font-size: 1rem;
+}
+body p {
+  margin-top: 0;
+  margin-bottom: 0.9rem;
+}
+
+img {
+  height: auto;
+}
+
+.wp-site-blocks > * {
+  margin-top: 0!important;
+}

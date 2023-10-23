@@ -1,0 +1,523 @@
+# Copyright (C) 2023 Jegstudio
+# This file is distributed under the GNU General Public License v3 or later..
+msgid ""
+msgstr ""
+"Project-Id-Version: Financio 1.1.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/financio\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-07-10T03:52:15+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: financio\n"
+
+#. Theme Name of the theme
+msgid "Financio"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://gutenverse.com/financio-theme"
+msgstr ""
+
+#. Description of the theme
+msgid "Financio is a simple, responsive, and professional looking theme template for WordPress fullsite editing and fully compatible with Gutenverse plugin. Financio's templates is built with layout/design that suit for Financial Service, Finance Company, Financial Advisor, Accountant, Insurance, Consulting Business or any other related business. The templates includes both core version and Gutenverse plugin version, also has core and Gutenverse block patterns ready so you can start mix and match your template parts as you desire. The templates is built ready so you don't need to build it from scratch. We want to make your experience using WordPress fullsite editor more convenient."
+msgstr ""
+
+#. Author of the theme
+msgid "Jegstudio"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://gutenverse.com"
+msgstr ""
+
+#: inc/class/class-block-patterns.php:36
+msgid "Financio Basic Patterns"
+msgstr ""
+
+#: inc/class/class-block-patterns.php:40
+msgid "Financio Gutenverse Patterns"
+msgstr ""
+
+#: inc/class/class-block-styles.php:37
+msgid "Button Fill"
+msgstr ""
+
+#: inc/class/class-block-styles.php:45
+msgid "Button Fill White"
+msgstr ""
+
+#: inc/class/class-block-styles.php:53
+#: inc/class/class-block-styles.php:61
+#: inc/class/class-block-styles.php:69
+msgid "Box Shadow"
+msgstr ""
+
+#: inc/class/class-block-styles.php:77
+#: inc/class/class-block-styles.php:85
+#: inc/class/class-block-styles.php:93
+msgid "Box Shadow on Hover"
+msgstr ""
+
+#: inc/class/class-init.php:753
+msgid "Check it Now!"
+msgstr ""
+
+#: inc/class/class-init.php:834
+msgid "Thank you for installing Financio!"
+msgstr ""
+
+#: inc/class/class-init.php:835
+msgid "Financio theme work best with Gutenverse plugin. By installing Gutenverse plugin you may access Financio templates built with Gutenverse and get access to more than 40 free blocks."
+msgstr ""
+
+#: inc/class/class-init.php:841
+msgid "More Info"
+msgstr ""
+
+#: inc/class/class-init.php:873
+msgid "Please install newer version of Gutenverse plugin! (v1.1.2 and above)"
+msgstr ""
+
+#: inc/class/class-init.php:918
+msgid "Primary"
+msgstr ""
+
+#: inc/class/class-upgrader.php:84
+msgid "Front Page exist. If you want migrate index, please clear Front Page customization."
+msgstr ""
+
+#: inc/class/class-upgrader.php:93
+msgid "Front Page"
+msgstr ""
+
+#: inc/class/class-upgrader.php:199
+msgid "Important"
+msgstr ""
+
+#: inc/class/class-upgrader.php:199
+msgid "Upgrade Notice!"
+msgstr ""
+
+#: inc/class/class-upgrader.php:204
+msgid "We notice you are upgrading from old theme and also have updated your Front Page. If previously you have issue with data lost on your home page, please proceed with upgrading process below."
+msgstr ""
+
+#: inc/class/class-upgrader.php:206
+#: inc/class/class-upgrader.php:222
+msgid "Please visit site editor page."
+msgstr ""
+
+#: inc/class/class-upgrader.php:207
+msgid "Before resetting, please make sure you back up your changes of Front Page template first."
+msgstr ""
+
+#: inc/class/class-upgrader.php:208
+msgid "If you sure you are having this issue, you can"
+msgstr ""
+
+#: inc/class/class-upgrader.php:209
+msgid "reset the Front Page template."
+msgstr ""
+
+#: inc/class/class-upgrader.php:210
+msgid "But don't reset the Index template."
+msgstr ""
+
+#: inc/class/class-upgrader.php:212
+msgid "After resetting, please refresh this page."
+msgstr ""
+
+#: inc/class/class-upgrader.php:215
+#: inc/class/class-upgrader.php:231
+msgid "I don't have the issue"
+msgstr ""
+
+#: inc/class/class-upgrader.php:220
+msgid "We notice you are upgrading from old theme. If you have issue with data lost on your front page, please proceed with upgrading process below."
+msgstr ""
+
+#: inc/class/class-upgrader.php:223
+msgid "Check your front page (from top to bottom), if your front page looks different than before, please click \"Fix Issue\" button below."
+msgstr ""
+
+#: inc/class/class-upgrader.php:224
+msgid "This issue only happened for Front Page, any change you made elsewhere are still intact."
+msgstr ""
+
+#: inc/class/class-upgrader.php:225
+msgid "This process will copy the content of your Index template to your Front Page template. You can always revert back to default front page by "
+msgstr ""
+
+#: inc/class/class-upgrader.php:226
+msgid "resetting the template."
+msgstr ""
+
+#: inc/class/class-upgrader.php:230
+#: inc/class/class-upgrader.php:256
+msgid "Fix Issue"
+msgstr ""
+
+#: inc/class/class-upgrader.php:296
+#: inc/class/class-upgrader.php:338
+msgid "%s Upgrade Notice!"
+msgstr ""
+
+#: inc/class/class-upgrader.php:298
+msgid "There are some new exciting updates we want to announce. This update will required the latest version of Gutenverse plugin to work smoothly, so we recommend to update your Gutenverse plugin."
+msgstr ""
+
+#: inc/class/class-upgrader.php:304
+msgid "Go to plugin page"
+msgstr ""
+
+#: inc/class/class-upgrader.php:308
+#: inc/class/class-upgrader.php:348
+msgid "Close notification"
+msgstr ""
+
+#: inc/class/class-upgrader.php:340
+msgid "We've made some changes to page content layout and global style. Please check "
+msgstr ""
+
+#: inc/class/class-upgrader.php:341
+msgid "your pages"
+msgstr ""
+
+#: inc/class/class-upgrader.php:342
+msgid " to see how the new layout looks on your site. You can always revert back by enable the inherit layout option on the "
+msgstr ""
+
+#: inc/class/class-upgrader.php:343
+msgid "Gutenverse settings."
+msgstr ""
+
+#: inc/class/class-upgrader.php:344
+msgid " dashboard. Learn more about new layout on "
+msgstr ""
+
+#: inc/class/class-upgrader.php:345
+msgid "this page."
+msgstr ""
+
+#: inc/class/class-upgrader.php:350
+msgid "Got Question?"
+msgstr ""
+
+#: inc/patterns/404.php:6
+msgid "404"
+msgstr ""
+
+#: inc/patterns/call-to-action.php:6
+msgid "Call to Action"
+msgstr ""
+
+#: inc/patterns/faq.php:6
+msgid "FAQ"
+msgstr ""
+
+#: inc/patterns/feature-2.php:6
+msgid "Feature 2"
+msgstr ""
+
+#: inc/patterns/feature.php:6
+msgid "Feature"
+msgstr ""
+
+#: inc/patterns/gutenverse-404-title.php:6
+msgid "Gutenverse 404 Title"
+msgstr ""
+
+#: inc/patterns/gutenverse-about-title.php:6
+msgid "Gutenverse About Title"
+msgstr ""
+
+#: inc/patterns/gutenverse-archive-title.php:6
+msgid "Gutenverse Archive Title"
+msgstr ""
+
+#: inc/patterns/gutenverse-blog-content.php:6
+msgid "Gutenverse Blog Content"
+msgstr ""
+
+#: inc/patterns/gutenverse-blog-title.php:6
+msgid "Gutenverse Blog Title"
+msgstr ""
+
+#: inc/patterns/gutenverse-contact-content.php:6
+msgid "Gutenverse Contact Content"
+msgstr ""
+
+#: inc/patterns/gutenverse-contact-title.php:6
+msgid "Gutenverse Contact Title"
+msgstr ""
+
+#: inc/patterns/gutenverse-cta.php:6
+msgid "Gutenverse Call to Action"
+msgstr ""
+
+#: inc/patterns/gutenverse-description.php:6
+msgid "Gutenverse Description"
+msgstr ""
+
+#: inc/patterns/gutenverse-faq-content.php:6
+#: inc/patterns/gutenverse-faq.php:6
+msgid "Gutenverse FAQ"
+msgstr ""
+
+#: inc/patterns/gutenverse-faq-title.php:6
+msgid "Gutenverse FAQ Title"
+msgstr ""
+
+#: inc/patterns/gutenverse-feature-2.php:6
+msgid "Gutenverse Feature 2"
+msgstr ""
+
+#: inc/patterns/gutenverse-feature.php:6
+msgid "Gutenverse Feature"
+msgstr ""
+
+#: inc/patterns/gutenverse-footer.php:6
+msgid "Gutenverse Footer"
+msgstr ""
+
+#: inc/patterns/gutenverse-header.php:6
+msgid "Gutenverse Header"
+msgstr ""
+
+#: inc/patterns/gutenverse-hero.php:6
+msgid "Gutenverse Hero"
+msgstr ""
+
+#: inc/patterns/gutenverse-index-title.php:6
+msgid "Gutenverse Index Title"
+msgstr ""
+
+#: inc/patterns/gutenverse-page-title.php:6
+msgid "Gutenverse Page Title"
+msgstr ""
+
+#: inc/patterns/gutenverse-search-title.php:6
+msgid "Gutenverse Search Title"
+msgstr ""
+
+#: inc/patterns/gutenverse-section-1.php:6
+msgid "Gutenverse Section 1"
+msgstr ""
+
+#: inc/patterns/gutenverse-section-2.php:6
+msgid "Gutenverse Section 2"
+msgstr ""
+
+#: inc/patterns/gutenverse-service-content.php:6
+msgid "Gutenverse Service Content"
+msgstr ""
+
+#: inc/patterns/gutenverse-service-title.php:6
+msgid "Gutenverse Service Title"
+msgstr ""
+
+#: inc/patterns/gutenverse-single-content.php:6
+msgid "Gutenverse Single Content"
+msgstr ""
+
+#: inc/patterns/gutenverse-single-title.php:6
+msgid "Gutenverse Single Title"
+msgstr ""
+
+#: inc/patterns/gutenverse-team.php:6
+msgid "Gutenverse Team"
+msgstr ""
+
+#: inc/patterns/gutenverse-testimonial.php:6
+msgid "Gutenverse Testimonial"
+msgstr ""
+
+#: inc/patterns/hero-archive-title.php:6
+msgid "Archive Hero Title"
+msgstr ""
+
+#: inc/patterns/hero-index-title.php:6
+msgid "Index Hero Title"
+msgstr ""
+
+#: inc/patterns/hero-search-title.php:6
+msgid "Search Hero Title"
+msgstr ""
+
+#: inc/patterns/post-title.php:6
+msgid "Post Title"
+msgstr ""
+
+#: inc/patterns/section-1.php:6
+msgid "Section 1"
+msgstr ""
+
+#: inc/patterns/section-2.php:6
+msgid "Section 2"
+msgstr ""
+
+#: inc/patterns/section-3.php:6
+msgid "Section 3 with Animation"
+msgstr ""
+
+#: inc/patterns/section-4.php:6
+msgid "Section 4 with Animation"
+msgstr ""
+
+#: index.php:4
+msgid "This theme was built for the WordPress full-site-editing feature. You need to install and activate the Gutenberg plugin to make it work. "
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Tiny"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Normal"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Gigantic"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 1"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 2"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 3"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 4"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 5"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 6"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Poppins"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Heebo"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Third"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Forth"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Fifth"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Sixth"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Seventh"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Eighth"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Ninth"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Tenth"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Eleventh"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Twelveth"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Pink to Yellow"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank Canvas"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Basic Template"
+msgstr ""

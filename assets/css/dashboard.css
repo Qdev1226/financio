@@ -1,0 +1,353 @@
+body {
+  --guten-theme-black: #011627;
+  --guten-theme-blue: #3B57F7;
+  --guten-theme-blue-2: #0058e6;
+  --guten-theme-brown: #826B1D;
+  --guten-theme-cream: #FFFCF5;
+  --guten-theme-gray: #E3E4E6;
+  --guten-theme-gray-2: #F5F7FE;
+  --guten-theme-gray-3: #999999;
+  --guten-theme-gray-4: #40505D;
+  --guten-theme-opacity: #00000099;
+  --guten-theme-yellow: #FEC84B;
+}
+
+.notice {
+  padding: 10px;
+  border-left: 4px solid var(--guten-theme-blue);
+}
+.notice.hide {
+  display: none;
+}
+
+#gutenverse-theme-dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  font-family: "Helvetica" !important;
+  margin: 40px auto 0;
+  max-width: 1600px;
+  padding-right: 20px;
+}
+#gutenverse-theme-dashboard * {
+  box-sizing: border-box;
+}
+#gutenverse-theme-dashboard section {
+  display: flex;
+  gap: 48px;
+}
+#gutenverse-theme-dashboard section .container {
+  background: white;
+  border-radius: 5px;
+  display: flex;
+  padding: 40px !important;
+}
+#gutenverse-theme-dashboard section .title {
+  color: var(--guten-theme-black);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+}
+#gutenverse-theme-dashboard section .description {
+  color: var(--guten-theme-gray-4);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+#gutenverse-theme-dashboard section .templates .thumbnail {
+  align-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 350px;
+}
+#gutenverse-theme-dashboard section .templates .thumbnail .image {
+  box-shadow: 0px 1px 20px 2px rgba(230, 230, 239, 0.6);
+  cursor: pointer;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+#gutenverse-theme-dashboard section .templates .thumbnail .image img {
+  height: auto;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+}
+#gutenverse-theme-dashboard section .templates .thumbnail .image .hover {
+  display: none;
+}
+#gutenverse-theme-dashboard section .templates .thumbnail .image:hover .hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--guten-theme-opacity);
+  transition: all 1s ease-in-out;
+}
+#gutenverse-theme-dashboard section .templates .thumbnail .image:first-child {
+  border-radius: 5px;
+  height: 280px;
+  width: 350px;
+}
+#gutenverse-theme-dashboard section .templates .thumbnail .image:not(:first-child) {
+  border-radius: 2px;
+  height: 60px;
+  margin-top: 10px;
+  width: 75px;
+}
+#gutenverse-theme-dashboard section .templates .content {
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 30px 0 60px;
+}
+#gutenverse-theme-dashboard section .templates .content > * {
+  width: 100%;
+}
+#gutenverse-theme-dashboard section .templates .content .description {
+  margin-top: 16px;
+  max-width: 1024px;
+}
+#gutenverse-theme-dashboard section .templates .notes {
+  background: var(--guten-theme-cream);
+  border: 1px solid var(--guten-theme-yellow);
+  border-radius: 5px;
+  padding: 14px 14px 19px 14px;
+  margin-top: 24px;
+  max-width: 1024px;
+}
+#gutenverse-theme-dashboard section .templates .notes h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: var(--guten-theme-brown);
+  margin: 0;
+  gap: 8px;
+}
+#gutenverse-theme-dashboard section .templates .notes p, #gutenverse-theme-dashboard section .templates .notes li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  align-items: center;
+  color: var(--guten-theme-brown);
+  margin: 0;
+}
+#gutenverse-theme-dashboard section .templates .notes p {
+  margin: 8px 0 8px 24px;
+}
+#gutenverse-theme-dashboard section .templates .notes ul {
+  margin: 8px 0 8px 36px;
+  margin-bottom: 0;
+  list-style: disc;
+}
+#gutenverse-theme-dashboard section .templates .theme-buttons {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  width: 100%;
+}
+#gutenverse-theme-dashboard section .templates .theme-buttons .theme-button {
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 18px;
+  border-radius: 50px;
+  background: var(--guten-theme-blue);
+  color: white;
+  padding: 16px 24px;
+  font-weight: 400;
+  width: 218px;
+  display: flex;
+  justify-content: center;
+}
+#gutenverse-theme-dashboard section .templates .theme-buttons .theme-button.active {
+  cursor: default;
+  background-color: var(--guten-theme-gray-3);
+}
+#gutenverse-theme-dashboard section .templates .theme-buttons .theme-button:hover:not(.active) {
+  background: var(--guten-theme-blue-2);
+}
+#gutenverse-theme-dashboard section .templates .theme-buttons .theme-link {
+  text-decoration: none;
+}
+#gutenverse-theme-dashboard section .templates .loader {
+  border: 5px solid white;
+  border-radius: 50%;
+  border-top: 5px solid rgba(255, 255, 255, 0);
+  width: 10px;
+  height: 10px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+#gutenverse-theme-dashboard section .comparisons {
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 70%;
+}
+#gutenverse-theme-dashboard section .comparisons > * {
+  width: 100%;
+}
+#gutenverse-theme-dashboard section .comparisons table {
+  border-collapse: separate;
+  border-spacing: 0;
+  font-style: normal;
+  margin-top: 40px;
+}
+#gutenverse-theme-dashboard section .comparisons table thead th {
+  border-bottom: 1px solid var(--guten-theme-gray);
+}
+#gutenverse-theme-dashboard section .comparisons table thead .thead_th {
+  border: 1px solid var(--guten-theme-gray);
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  padding: 20px 0;
+}
+#gutenverse-theme-dashboard section .comparisons table thead .thead_th:first-child {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+#gutenverse-theme-dashboard section .comparisons table thead .thead_th:nth-child(2) {
+  background: var(--guten-theme-blue);
+  border-radius: 5px 0px 0px 0px;
+  color: white;
+}
+#gutenverse-theme-dashboard section .comparisons table thead .thead_th:nth-child(3) {
+  background: var(--guten-theme-gray-2);
+  border-radius: 0px 5px 0px 0px;
+}
+#gutenverse-theme-dashboard section .comparisons table tbody td {
+  border: 1px solid var(--guten-theme-gray);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 10px 20px;
+  width: 200px;
+}
+#gutenverse-theme-dashboard section .comparisons table tbody .tbody_td {
+  border-width: 0 1px 1px 1px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+#gutenverse-theme-dashboard section .comparisons table tbody .tbody_td.center {
+  border-width: 0 1px 1px 0;
+  text-align: center;
+}
+#gutenverse-theme-dashboard section .benefits {
+  align-content: flex-start;
+  flex-wrap: wrap;
+  width: 30%;
+}
+#gutenverse-theme-dashboard section .benefits .description {
+  margin-top: 20px;
+}
+#gutenverse-theme-dashboard section .benefits .features h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 24px 0 12px;
+}
+#gutenverse-theme-dashboard section .benefits .features ul {
+  list-style: disc;
+  margin-left: 10px;
+}
+#gutenverse-theme-dashboard section .benefits .features ul li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+}
+#gutenverse-theme-dashboard .popup {
+  background: var(--guten-theme-opacity);
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 99999;
+  text-align: center;
+  overflow: auto;
+  position: fixed;
+}
+#gutenverse-theme-dashboard .popup.hide {
+  display: none;
+}
+#gutenverse-theme-dashboard .popup img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 600px;
+}
+@media only screen and (max-width: 1270px) {
+  #gutenverse-theme-dashboard .comparisons {
+    width: 65%;
+  }
+  #gutenverse-theme-dashboard .benefits {
+    width: 35%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #gutenverse-theme-dashboard section {
+    flex-wrap: wrap;
+  }
+  #gutenverse-theme-dashboard section .templates {
+    flex-wrap: wrap;
+  }
+  #gutenverse-theme-dashboard section .templates .thumbnail {
+    width: 100%;
+  }
+  #gutenverse-theme-dashboard section .templates .thumbnail .image:first-child {
+    width: 100%;
+    height: 500px;
+  }
+  #gutenverse-theme-dashboard section .templates .thumbnail .image:not(:first-child) {
+    border-radius: 2px;
+    width: 22%;
+    height: 100px;
+  }
+  #gutenverse-theme-dashboard section .templates .content {
+    padding: 30px 10px;
+  }
+  #gutenverse-theme-dashboard section .comparisons {
+    width: 100%;
+  }
+  #gutenverse-theme-dashboard section .benefits {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

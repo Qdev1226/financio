@@ -1,0 +1,85 @@
+.theme-upgrade-notice {
+    padding: 20px;
+}
+
+.theme-upgrade-notice.has-logo {
+    position: relative;
+    display: flex;
+    margin: 10px 0 20px !important;
+    padding: 0 !important;
+    border: 1px solid #c3c4c7;
+    border-left-width: 0;
+}
+
+.theme-upgrade-notice .notice-logo {
+    padding: 20px 15px;
+    border-color: transparent;
+    border-left: 4px;
+    border-right: 0;
+    border-style: solid;
+}
+
+.theme-upgrade-notice:not(.has-logo).notice-important {
+    border-left-color: #b50000;
+}
+
+.theme-upgrade-notice:not(.has-logo).notice-warning {
+    border-left-color: #ffc909;
+}
+
+.theme-upgrade-notice.has-logo.notice-important .notice-logo {
+    border-left-color: #b50000;
+}
+
+.theme-upgrade-notice.has-logo.notice-warning .notice-logo {
+    background: #fff9e2;
+    border-left-color: #ffc909;
+}
+
+.theme-upgrade-notice .notice-content {
+    width: 100%;
+    padding: 20px 20px 25px 20px;
+}
+
+.theme-upgrade-notice h2 {
+    margin-top: 5px;
+}
+
+.themes-upgrade-action {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.themes-upgrade-action a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+}
+
+.themes-upgrade-action a[class^="button-"] {
+    font-size: 13px;
+    line-height: 1.4;
+    text-decoration: none;
+    color: #fff;
+    background: #1b67a5;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 7px 15px;
+}
+
+.themes-upgrade-action a.button-success {
+    background: green;
+}
+
+.themes-upgrade-action a:not([class^="button-"]).close-notification:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f057";
+}
+
+.themes-upgrade-action a:not([class^="button-"]).get-support:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f1cd";
+}

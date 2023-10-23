@@ -1,0 +1,193 @@
+/* CUSTOM CORE CLASSES */
+
+.is-style-custombuttonfill .wp-block-button__link {
+    padding: 20px 40px;
+    background-color: var(--wp--preset--color--primary);
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.is-style-custombuttonfill:hover .wp-block-button__link {
+    background-color: #FFFFFF;
+    color: var(--wp--preset--color--primary);
+}
+
+.is-style-custombuttonfillwhite .wp-block-button__link {
+    padding: 20px 40px;
+    background-color: #FFFFFF;
+    color: var(--wp--preset--color--primary);
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.is-style-custombuttonfillwhite:hover .wp-block-button__link {
+    background-color: var(--wp--preset--color--primary);
+    color: #FFFFFF;
+}
+
+.is-style-customboxshadow,
+.is-style-customboxshadowhover:hover {
+    box-shadow: 0px 3px 15px 0px #1010101a;
+}
+
+
+/* FINANCIO ADVANCE CLASSES */
+
+.financio-z-index-1 {
+    z-index: 1;
+}
+
+.financio-z-index-10 {
+    z-index: 10;
+}
+
+.financio-z-index-100 {
+    z-index: 100;
+}
+
+.financio-z-index-1000 {
+    z-index: 1000;
+}
+
+.financio-margin-top-n10 {
+    position: relative;
+    margin-top: -10px!important;
+}
+
+.financio-margin-top-n20 {
+    position: relative;
+    margin-top: -20px!important;
+}
+
+.financio-margin-top-n30 {
+    position: relative;
+    margin-top: -30px!important;
+}
+
+.financio-margin-top-n40 {
+    position: relative;
+    margin-top: -40px!important;
+}
+
+.financio-margin-top-n50 {
+    position: relative;
+    margin-top: -50px!important;
+}
+
+.financio-margin-top-n60 {
+    position: relative;
+    margin-top: -60px!important;
+}
+
+.financio-margin-top-n70 {
+    position: relative;
+    margin-top: -70px!important;
+}
+
+.financio-margin-top-n80 {
+    position: relative;
+    margin-top: -80px!important;
+}
+
+.financio-margin-top-n90 {
+    position: relative;
+    margin-top: -90px!important;
+}
+
+.financio-margin-top-n100 {
+    position: relative;
+    margin-top: -100px!important;
+}
+
+.financio-radius-5 {
+    border-radius: 5px;
+}
+
+.financio-radius-10 {
+    border-radius: 10px;
+}
+
+.financio-radius-25 {
+    border-radius: 25px;
+}
+
+.financio-radius-50 {
+    border-radius: 50px;
+}
+
+
+
+.financio-post-template-gap {
+    margin-left: -17.5px!important;
+    margin-right: -17.5px!important;    
+}
+
+.financio-post-template-gap .wp-block-post-template {
+    gap: 0!important;
+}
+
+.financio-post-template-gap .wp-block-post-template > .wp-block-post {
+    padding-left: 17.5px!important;
+    padding-right: 17.5px!important;
+    padding-bottom: 35px!important;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    .financio-post-template-gap .wp-block-post-template.column-2 > .wp-block-post,
+    .financio-post-template-gap .wp-block-post-template.columns-2 > .wp-block-post {
+        width: calc(50% - 35px)!important;
+    }
+
+    .financio-post-template-gap .wp-block-post-template.column-3 > .wp-block-post,
+    .financio-post-template-gap .wp-block-post-template.columns-3 > .wp-block-post {
+        width: calc(33.33333% - 35px)!important;
+    }
+
+    .financio-post-template-gap .wp-block-post-template.column-4 > .wp-block-post,
+    .financio-post-template-gap .wp-block-post-template.columns-4 > .wp-block-post {
+        width: calc(25% - 35px)!important;
+    }
+
+    .financio-post-template-gap .wp-block-post-template.column-5 > .wp-block-post,
+    .financio-post-template-gap .wp-block-post-template.columns-5 > .wp-block-post {
+        width: calc(20% - 35px)!important;
+    }
+
+    .financio-post-template-gap .wp-block-post-template.column-6 > .wp-block-post,
+    .financio-post-template-gap .wp-block-post-template.columns-6 > .wp-block-post {
+        width: calc(16.66667% - 35px)!important;
+    }
+
+    body:not(.editor-styles-wrapper) .financio-post-template-gap .wp-block-post-template.column-2 > .wp-block-post,
+    body:not(.editor-styles-wrapper) .financio-post-template-gap .wp-block-post-template.columns-2 > .wp-block-post {
+        width: calc(50%)!important;
+    }
+
+    body:not(.editor-styles-wrapper) .financio-post-template-gap .wp-block-post-template.column-3 > .wp-block-post,
+    body:not(.editor-styles-wrapper) .financio-post-template-gap .wp-block-post-template.columns-3 > .wp-block-post {
+        width: calc(33.33333%)!important;
+    }
+
+    body:not(.editor-styles-wrapper) .financio-post-template-gap .wp-block-post-template.column-4 > .wp-block-post,
+    body:not(.editor-styles-wrapper) .financio-post-template-gap .wp-block-post-template.columns-4 > .wp-block-post {
+        width: calc(25%)!important;
+    }
+
+    body:not(.editor-styles-wrapper) .financio-post-template-gap .wp-block-post-template.column-5 > .wp-block-post,
+    body:not(.editor-styles-wrapper) .financio-post-template-gap .wp-block-post-template.columns-5 > .wp-block-post {
+        width: calc(20%)!important;
+    }
+
+    body:not(.editor-styles-wrapper) .financio-post-template-gap .wp-block-post-template.column-6 > .wp-block-post,
+    body:not(.editor-styles-wrapper) .financio-post-template-gap .wp-block-post-template.columns-6 > .wp-block-post {
+        width: calc(16.66667%)!important;
+    }
+
+}

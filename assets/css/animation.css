@@ -1,0 +1,73 @@
+:root {
+	--financio-transition: cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+
+body .financio-animate-init {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) translateX(0) scale(1) rotate(0)
+}
+
+.financio-animate {
+    opacity: 0;
+    visibility: hidden;
+    transition-property: opacity, transform;
+}
+
+.financio-move-up {
+    transform: translateY(30px)
+}
+
+.financio-move-down {
+    transform: translateY(-30px)
+}
+
+.financio-move-right {
+    transform: translateX(-40px)
+}
+
+.financio-move-left {
+    transform: translateX(40px)
+}
+
+.financio-flip {
+    transform: perspective(500px) translateY(60px) scaleY(.75) rotateX(-40deg)
+}
+
+.financio-scale {
+    transform: scale(0.5)
+}
+
+.financio-flip,
+.financio-move-down,
+.financio-move-up,
+.financio-move-right,
+.financio-move-left,
+.financio-scale {
+    transition-duration: .7s;
+    transition-timing-function: var(--financio-transition)
+}
+
+.financio-delay-1 {
+    transition-delay: .1s
+}
+
+.financio-delay-3 {
+    transition-delay: .3s
+}
+
+.financio-delay-5 {
+    transition-delay: .5s
+}
+
+.financio-delay-7 {
+    transition-delay: .7s
+}
+
+.financio-delay-10 {
+    transition-delay: 1s
+}
+
+.financio-delay-20 {
+    transition-delay: 2s
+}
